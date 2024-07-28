@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>contact Page</title>
+    </head>
+    <body>
+<p>1st number
+    <input type="text" id="one">
+</p>
+<p>2nd number
+    <input type="text" id="two">
+</p>
+<button type="submit" id="m" onclick="rag()">multiply</button>
+<button type="submit" id="d" onclick="rag()">divide</button>
+<p id="r">result</p>
+<script>
+    function rag(){
+        var x= document.getElementById("one").value;
+        var y= document.getElementById("two").value;
+document.getElementById("r").innerHTML=x*y;
+    }
+</script>
+    </body>
+</html>
